@@ -1,0 +1,26 @@
+.mentor-container {
+  background: white;
+  width: 260px;
+  border: none;
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 3px 9px 1px #bdbdbd;
+}
+
+.mentor-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+}
+
+.mentor-content > * {
+  margin-bottom: 10px;
+}
